@@ -18,3 +18,45 @@ html {
     max-width: 1000px;
     margin: 0 auto;
 }
+
+/* 
+    HEADER
+*/
+header > div {
+    height: 100px;
+    background-color: purple;
+}
+
+/* 
+    MAIN
+*/
+.main-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blue-elem {
+    height: 25px;
+    background-color: cyan;
+    margin-bottom: 10px;
+}
+
+.blue-elem.big {
+    height: 125px;
+}
+
+.w-1-4 {
+    width: calc((100% / 12) * 3);
+}
+
+.w-1 {
+    width: calc((100% / 12) * 12);
+}
+
+/* 
+    HEADER
+*/
+footer > div {
+    height: 100px;
+    background-color: blue;
+}
